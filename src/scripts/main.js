@@ -33,7 +33,6 @@ toSellOrNotToSell(firedVase)
 toSellOrNotToSell(firedBowl)
 toSellOrNotToSell(firedUrn)
 usePottery()
-console.log(usePottery())
 // Invoke the component function that renders the HTML list
 
 let newPotteryHTML = pottertyListHTML()
