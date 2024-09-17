@@ -2,11 +2,11 @@ import { pottery } from "./PotteryWheel.js"
 import { vase } from "./main.js"
 
 export const firePottery = (pot, temp) =>{
-        pot[`fired`] = true
+        pot.fired = true
         if (temp > 2200){
-            pot['cracked'] = true
+            pot.cracked = true
         }else if (temp <= 2200){
-            pot['cracked'] = false
+            pot.cracked = false
         }
         return pot
 
